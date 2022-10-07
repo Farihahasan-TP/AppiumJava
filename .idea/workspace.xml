@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdb046e0-cd95-4498-b632-8fa77738a090" name="Changes" comment="First Test case sample">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumDemo/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumDemo/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumDemo/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumDemo/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumDemo/Setup.java" afterDir="false" />
-    </list>
+    <list default="true" id="bdb046e0-cd95-4498-b632-8fa77738a090" name="Changes" comment="First Test case sample" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,11 +42,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fariha.hasan\OneDrive - 10Pearls\desktop\Appium Training\Appium\apps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fariha.hasan\OneDrive - 10Pearls\desktop\Appium Training\Appium\configuration" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -60,24 +63,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Login">
-    <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AppiumDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AppiumDemo" />
-      <option name="MAIN_CLASS_NAME" value="AppiumDemo.BaseClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium" />
       <extension name="coverage">
@@ -88,6 +74,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="AppiumDemo" />
       <option name="MAIN_CLASS_NAME" value="AppiumDemo.Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.Setup" />
+        <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.&lt;default&gt; (1)" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.BaseClass" />
       </list>
     </recent_temporary>
   </component>
